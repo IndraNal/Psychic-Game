@@ -6,11 +6,12 @@
           user_letter=String.fromCharCode(key_code).toLowerCase();
           //letter1 =document.createTextNode(letter);
 
-          if(key_code > 64 && key_code < 91)
+          if(key_code > 64 && key_code < 91 || key_code > 96 && key_code < 123 )
+
           {
       if(guessLeft===1 && comp_letter !=user_letter )
     {
-        lossScore=lossScore+1; 
+        lossScore=lossScore+1;  
         alert("Sorry, you missed it !");
         document.getElementById("lossScore").innerHTML = "Losses: "+ lossScore;  
          startgame()
