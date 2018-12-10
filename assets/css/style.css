@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    
+    .scores{
+
+        color:#393b32;
+        text-align: center; 
+        font-size: 20px;   
+        margin: 50px;
+    
+    }
+
+    body{
+
+        line-height: 2.5;
+        background-color:#E7DACA;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+   h3{
+
+        text-align:center;
+        background-color: #2E3732;
+        color: #F4CDC6;
+
+    }
+
+    h1{
+        background-color: #CC3012;
+        text-align:center;
+        color:#393b32;
+
+    }
+
+
+    footer {
+   
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 80px; 
+        font-size: 18px;
+        color:#393b32;
+        text-align: center;
+        background-color: #CC3012;
+        border-top: 8px solid #2E3732;
+        font-weight:bold;
+        padding:10px;
+       
+      }
